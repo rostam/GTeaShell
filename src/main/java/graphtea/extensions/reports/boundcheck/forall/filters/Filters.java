@@ -15,10 +15,12 @@ public class Filters {
     public final static String NoFilter = "No Filter";
     public final static String ChemTree = "Chemical Tree";
     public final static String MinDeg2 = "Minimum Degree 2";
-    public final static String Unicyclic = "Unicyclic Graphs";
-    public final static String Bicyclic = "Bicyclic Graphs";
-    public final static String Pentacyclic = "Pentacyclic Graphs";
-    public final static String Tricyclic = "Tricyclic Graphs";
+    public final static String Unicyclic = "Unicyclic";
+    public final static String Bicyclic = "Bicyclic";
+    public final static String Pentacyclic = "Pentacyclic";
+    public final static String Tricyclic = "Tricyclic";
+    public final static String Tetracyclic = "Tetracyclic";
+
 
     public static ArrayX<String> getFilterNames() {
         return new ArrayX<>(
