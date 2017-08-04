@@ -22,7 +22,6 @@ public class AllGraphGenerator {
         while(sc.hasNextLine()) {
             String line = sc.nextLine();
             GraphModel g = G6Format.stringToGraphModel(line);
-            g.edgec
             if(filter.filter(g)) {
                 fw.write(G6Format.graphToG6(g) + "\n");
                 fw.flush();
